@@ -11,7 +11,7 @@ body {
 
 }
 
-#navbar{
+#navbar {
     border-color: #000;
     background-color: #f6f6ef;
     border-style:solid;
@@ -21,7 +21,7 @@ body {
 }
 
 
-.btn, a.btn , #btn ,#apiBtn{
+.btn, a.btn , #btn ,#apiBtn {
     background-color:#fc6621;
     border-color: #000;
     color:white;
@@ -44,26 +44,26 @@ body {
     background-color:#f6f6ef;
     border-color: #000;
 }
-.container{
+.container {
     background-color:#15156d;
 }
 
-#socialLinks, #git{
+#socialLinks, #git {
     float:right;
     color: #ffffff;
 }
 
-#text{
+#text {
     background-color:#f6f6ef;
 }
 
-img{
+img {
     width:50px;
     height:50px;
     float:left;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-weight: bold;
     
 }

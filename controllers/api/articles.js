@@ -115,7 +115,7 @@ router.get('/scrape', function(req, res, next) {
                 };
                 // create new article
                 let entry = new Article(single);
-                // save to database
+                // save to database (Working)
                 entry.save(function(err, doc) {
                     if (err) {
                         if (!err.errors.link) {

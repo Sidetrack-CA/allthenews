@@ -46,7 +46,7 @@ db.on("error", function(error) {
 
 // Once logged in to the db through mongoose, log a success message
 db.once("open", function() {
-    console.log("Mongoose connection successful.");
+    console.log("Mongoose connection successful. MongoDB is accessible");
     // start the server, listen on port 3000
     app.listen(PORT, function() {
         console.log("App running on port " + PORT);
